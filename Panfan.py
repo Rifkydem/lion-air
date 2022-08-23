@@ -44,7 +44,7 @@ data_id = None
 def convert(cookie):
 	cookies = {"cookie":cookie}
 	res = requests.Session().get('https://business.facebook.com/business_locations', headers = {
-		'user-agent'	:	'Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36',
+		'user-agent'	:	'Mozilla/5.0 (Linux; Android 11; zh-tw; HTC_2Q4D100Build/PPRL.190405.003; wv) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/79.0.4457.107 Mobile Safari/537.36',
 		'referer'	:	'https://www.facebook.com/',
 		'host'	:	'business.facebook.com',
 		'origin'	:	'https://business.facebook.com',
@@ -159,7 +159,7 @@ class Crack:
 				'sec-ch-ua-mobile'	:	'?1',
 				'sec-ch-ua-platform'	:	'"Android"',
 				'Upgrade-Insecure-Requests'	:	'1',
-				'User-Agent'	:	'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.117 Mobile Safari/537.36',
+				'User-Agent'	:	'Mozilla/5.0 (Linux; Android 11; zh-tw; HTC_2Q4D100Build/PPRL.190405.003; wv) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/79.0.4457.107 Mobile Safari/537.36',
 				'Accept'	:	'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
 				'Sec-Fetch-Site'	:	'same-origin',
 				'Sec-Fetch-Mode'	:	'navigate',
@@ -189,7 +189,7 @@ class Crack:
 				'Upgrade-Insecure-Requests'	:	'1',
 				'Origin'	:	'https://mbasic.facebook.com',
 				'Content-Type'	:	'application/x-www-form-urlencoded',
-				'User-Agent'	:	'NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
+				'User-Agent'	:	'Mozilla/5.0 (Linux; Android 11; zh-tw; HTC_2Q4D100Build/PPRL.190405.003; wv) AppleWebKit/537.36 (KHTML, likeGecko) Chrome/79.0.4457.107 Mobile Safari/537.36',
 				'Accept'	:	'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
 				'Sec-Fetch-Site'	:	'same-origin',
 				'Sec-Fetch-Mode'	:	'navigate',
